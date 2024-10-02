@@ -1,13 +1,14 @@
 import { useState } from "react";
-import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <h1>Hello Tasky Application and sumitkumar Deshpande</h1>
-    </>
+    <div className="container mx-auto h-screen w-full bg-neutral-700">
+      <h1 className="text-3xl  text-center font-bold underline text-violet-500 ">
+        Hello world!
+      </h1>
+    </div>
   );
 }
 
